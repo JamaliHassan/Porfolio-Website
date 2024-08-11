@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">Hassan's Portfolio</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div>
+          <img src="images/1.png" alt="profile photo" class="profile" />
+        </div>
+        <h2>Hassan Jamali</h2>
+        <p>
+          Pursuing Certified Cloud Applied Generative AI Engineer (GenEng).
+          <br />
+          Undergraduate Student at Shah Abdul Latif University Khairpur.
+          <br />Proficient in HTML | CSS | TYPESCRIPT | JAVASCRIPT
+        </p>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/jamalihassan12/" target="_blank"><i id="icon" class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/JamaliHassan" target="_blank"><i id="icon2" class="fa-brands fa-github"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=balochhassan939@gmail.com" target="_blank"><i class="fa-solid fa-at"></i></a>
+        <button  id="cv-button"><a href="cv/cv.docx" download="My_CV.docx"">Download CV </a></button>
+      </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li id="HTML">
+            HTML
+            <p>Skilled in using HTML for structuring web content</p>
+          </li>
+          <li id="CSS">
+            CSS
+            <p>Crafting Beautiful Web Experiences with CSS Magic</p>
+          </li>
+          <li id="TYPESCRIPT">
+            TYPESCRIPT
+            <p>Building Reliable Web Applications with TypeScript Precision</p>
+          </li>
+          <li id="JAVASCRIPT">
+            JAVASCRIPT
+            <p>
+              Proficient in JavaScript for dynamic and interactive web
+              development
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education" class="section bg-light">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="education-item">
+          <h3>Bachelor of Arts in Economics</h3>
+          <p>
+            Shah Abdul Latif University of Khairpur - Expexted Graduation in
+            (2025)
+          </p>
+        </div>
+        <div class="education-item">
+          <h3>Certified Cloud Applied Generative AI</h3>
+          <p>Governor Sindh Initiative of AI - Expected Graduation in (2025)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>
+          I'd love to hear from you! Feel free to reach out for collaborations
+          or just a friendly hello.
+        </p>
+        <form action="#" method="post">
+            
+          <label for="name"></label>
+          <input type="text" class="name-email" name="name" placeholder="Name" required />
+          <label for="email"></label>
+          <input type="email" class="name-email" name="email" placeholder="Email" required />
+          <div class="subject-container">
+            <label for="subject"></label>
+            <input id="subject" name="subject" placeholder="Subject" required></input>
+          </div>
+          <div class="message-container">
+            <label for="message"></label>
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+          </div>
+          <div class="privacy-check">
+            <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+            <label for="privacyPolicy">I agree to the <a href="/privacy-policy" target="_blank">Privacy Policy</a></label>
+        </div>
+          <div class="form-group">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="copy-right">&copy; 2024 Hassan Jamali. All Rights Reserved <br />
+          Designed with &#9829 by Hassan Jamali </p>
+      </div>
+    </footer>
+  </body>
+</html>

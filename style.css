@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo {
+  color: rgb(210, 51, 23);
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.bg-light {
+  background-color: #ffffff;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+header {
+  background: black;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: rgb(210, 51, 23);
+}
+
+.section {
+  padding-top: 100px;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#about {
+  text-align: center;
+}
+
+.fa-linkedin {
+  font-size: 23px;
+  margin-right: 10px;
+}
+.fa-github {
+  font-size: 23px;
+  margin-right: 10px;
+}
+button {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 7px;
+}
+#cv-button {
+  margin-left: 5px;
+}
+.fa-at {
+  font-size: 23px;
+}
+.fa-linkedin:hover {
+  font-size: 25px;
+}
+.fa-github:hover {
+  font-size: 25px;
+}
+.fa-at:hover {
+  font-size: 25px;
+}
+
+h2 {
+  text-align: center;
+}
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px 10px;
+}
+
+li {
+  text-align: center;
+}
+#HTML {
+  position: relative;
+  left: -60px;
+}
+#CSS {
+  position: relative;
+  left: 60px;
+}
+#TYPESCRIPT {
+  position: relative;
+  top: 20px;
+  left: -47px;
+}
+#JAVASCRIPT {
+  position: relative;
+  top: 20px;
+  left: 67px;
+}
+.skills-list li {
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.skills-list li:hover {
+  transform: scale(1.1);
+}
+
+.education-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.education-item:hover {
+  transform: scale(1.1);
+}
+#contact {
+  text-align: center;
+}
+form {
+  padding: 20px;
+}
+.name-email {
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 8px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border: none;
+  font-weight: 700;
+}
+#subject {
+  font-weight: 700;
+  border: none;
+  width: 530px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 15px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#message {
+  font-weight: 700;
+  width: 525px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 18px;
+  padding: 12px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+button {
+  margin-top: 20px;
+  border: none;
+  font-size: medium;
+  background-color: #aef4ff;
+}
+button:hover {
+  background-color: #e34234;
+  color: black;
+  transform: scale(1.02);
+}
+
+footer {
+  background: black;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.privacy-check {
+  margin: 15px 310px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .skills-list li {
+    flex-basis: 100%;
+  }
+
+  .name-email,
+  #subject,
+  #message {
+    width: 100%;
+  }
+}
